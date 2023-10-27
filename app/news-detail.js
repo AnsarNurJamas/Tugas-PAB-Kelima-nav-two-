@@ -54,7 +54,7 @@ const NewsDetail = () => {
             paddingHorizontal={15}
             borderBottomWidth={1}
           ></View>
-                    <Text paddingHorizontal={15} color="black">
+                    <Text paddingHorizontal={15} color="black" marginBottom={10}>
                         {params.content}
                     </Text>
                 </View>
