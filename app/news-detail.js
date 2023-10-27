@@ -30,7 +30,7 @@ const NewsDetail = () => {
         <>
             <Header title={"News"} withBack={true} />
             <ScrollView>
-                <View p="2">
+                <View>
                     <Image
                         width={"auto"}
                         height={200}
@@ -39,22 +39,22 @@ const NewsDetail = () => {
                         role="Image"
                         marginBottom={15}
                     />
-                    <Text fontSize={"$sm"} paddingHorizontal={"$4"} marginBottom={9}color="black">
+                    <Text fontSize={"$sm"} paddingHorizontal={15} marginBottom={9}color="black">
                         {params.date}
                     </Text>
-                    <Heading lineHeight={"$xl"} fontSize={24} paddingHorizontal={"$4"}>
+                    <Heading lineHeight={"$xl"} fontSize={24} paddingHorizontal={15}>
                         {params.title}
                     </Heading>
                     <View
-            p={"$2"}
+            p={7}
             width={380}
             marginBottom={10}
             alignSelf="center"
             borderBottomColor={"$coolGray300"}
-            paddingHorizontal={"$4"}
+            paddingHorizontal={15}
             borderBottomWidth={1}
           ></View>
-                    <Text paddingHorizontal={"$4"} color="black">
+                    <Text paddingHorizontal={15} color="black">
                         {params.content}
                     </Text>
                 </View>
